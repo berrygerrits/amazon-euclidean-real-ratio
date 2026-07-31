@@ -14,10 +14,9 @@ driver's actual visit sequence:
 - **Real length** — the same path routed over the real road network via a local
   [OSRM](https://project-osrm.org/) server (no per-request API cost).
 
-We call this ratio the **golden ratio**.¹ The notebook aggregates these into a single
-stop-weighted mean over all routes.
+We call this ratio the **golden ratio**.¹
 
-> ¹ As a friendly nod to **Bruce L. Golden** (University of Maryland), vehicle routing guru.
+> ¹ As a friendly nod to **Bruce L. Golden** (University of Maryland), a vehicle routing guru.
 
 The distance is measured along the full route the driver actually drove:
 depot → all stops → depot.

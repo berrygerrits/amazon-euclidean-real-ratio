@@ -75,11 +75,31 @@ jupyter notebook notebooks\compute_ratio.ipynb
     └── compute_ratio.ipynb   # main analysis -> single ratio
 ```
 
-## Citation
+## Citing this work
 
-Dataset: Merchán, D., Arora, J., Pachon, J., Konduri, K., Winkenbach, M., Parks,
-S., Noszek, J. (2022). 2021 Amazon Last Mile Routing Research Challenge: Data Set.
-*Transportation Science* 58(1):8–11. https://doi.org/10.1287/trsc.2022.1173
+If you use this repository, please cite it as:
+
+    @misc{gerrits_akkerman_2026_goldenratio,
+      author       = {Gerrits, Berry and Akkerman, Fabian},
+      title        = {The Ratio Between Real and Euclidean Distance},
+      year         = {2026},
+      howpublished = {\url{https://github.com/berrygerrits/amazon-euclidean-real-ratio}}
+    }
+
+Please also cite the underlying dataset:
+
+    @article{merchan_2022_almrrc,
+      author  = {Merch{\'a}n, Daniel and Arora, Jatin and Pachon, Joseph and
+                 Konduri, Karthik and Winkenbach, Matthias and Parks, Steven and
+                 Noszek, Joseph},
+      title   = {2021 {Amazon} Last Mile Routing Research Challenge: Data Set},
+      journal = {Transportation Science},
+      year    = {2022},
+      volume  = {58},
+      number  = {1},
+      pages   = {8--11},
+      doi     = {10.1287/trsc.2022.1173}
+    }
 
 ## License
 

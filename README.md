@@ -33,8 +33,8 @@ depot → all stops → depot.
 ## Requirements
 
 - Python 3.9+ with `numpy`, `pandas`, `requests`, `jupyter` (see `requirements.txt`)
-- Docker Desktop / Docker Engine (only if you process OSM extracts yourself)
-- ~15–30 GB free disk depending on how many metros you route
+- Docker Desktop / Docker Engine
+- ~5–15 GB free disk depending on how many metros you route
 
 ### Setting up the Python environment
 

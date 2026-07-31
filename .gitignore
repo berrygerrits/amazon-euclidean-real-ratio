@@ -1,0 +1,17 @@
+# Data — never commit the Amazon dataset or OSM extracts/graphs
+data/
+osrm/
+*.osm.pbf
+*.osrm
+*.osrm.*
+
+# Outputs
+*.csv
+!docs/**/*.csv
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/

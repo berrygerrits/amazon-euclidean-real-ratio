@@ -79,7 +79,7 @@ jupyter notebook notebooks\compute_ratio.ipynb
 
 If you use this repository, please cite it as:
 
-    @misc{gerrits_akkerman_2026_goldenratio,
+    @misc{gerrits_2026_goldenratio,
       author       = {Gerrits, Berry},
       title        = {The Ratio Between Real and Euclidean Distance},
       year         = {2026},

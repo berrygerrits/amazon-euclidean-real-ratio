@@ -14,7 +14,7 @@ driver's actual visit sequence:
 - **Real length** — the same path routed over the real road network via a local
   [OSRM](https://project-osrm.org/) server (no per-request API cost).
 
-We are interested in the ratio between the Euclidean length and the real length. We call this ratio the **golden ratio**.¹
+We are interested in the ratio between the real length and the Euclidean length. We call this ratio the **golden ratio**.¹
 
 > ¹ As a friendly nod to **Bruce L. Golden** (University of Maryland), a vehicle routing guru.
 

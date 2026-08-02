@@ -21,7 +21,7 @@ We are interested in the ratio between the real length and the Euclidean length.
 The distance is measured along the full route the driver actually drove:
 depot → all stops → depot.
 
-[`notebooks/compute_ratio.ipynb`](notebooks/compute_ratio.ipynb) shows that the mean Golden Ratio is ≈ 1.61. Coincidentally, the more well-known [Golden Ratio](https://en.wikipedia.org/wiki/Golden_ratio), $\phi = \frac{1+\sqrt{5}}{2} \approx 1.61$, has virtually the same value.
+Explore [`notebooks/compute_ratio.ipynb`](notebooks/compute_ratio.ipynb) and observe the mean Golden Ratio ≈ 1.61. Coincidentally, the more well-known [Golden Ratio](https://en.wikipedia.org/wiki/Golden_ratio), $\phi = \frac{1+\sqrt{5}}{2} \approx 1.61$, has virtually the same value.
 
 ## Quick start
 

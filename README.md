@@ -14,12 +14,14 @@ driver's actual visit sequence:
 - **Real length** — the same path routed over the real road network via a local
   [OSRM](https://project-osrm.org/) server (no per-request API cost).
 
-We are interested in the ratio between the real length and the Euclidean length. We call this ratio the **golden ratio**.¹
+We are interested in the ratio between the real length and the Euclidean length. We call this ratio the **Golden Ratio**.¹
 
 > ¹ As a friendly nod to **Bruce L. Golden** (University of Maryland), a vehicle routing guru.
 
 The distance is measured along the full route the driver actually drove:
 depot → all stops → depot.
+
+[`notebooks/compute_ratio.ipynb`](notebooks/compute_ratio.ipynb) shows that the mean Golden Ratio is ≈ 1.61. Coincidentally, the more well-known [Golden Ratio](https://en.wikipedia.org/wiki/Golden_ratio), $\phi = \frac{1+\sqrt{5}}{2} \approx 1.61$, has virtually the same value.
 
 ## Quick start
 
